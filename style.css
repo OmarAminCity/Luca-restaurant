@@ -1,0 +1,174 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("https://luca.restaurant/wp-content/uploads/RESTAURANT_6_169-1.jpg");
+  padding: 0px 0px 0px 0px;
+  
+}
+
+
+/* .reserve {
+  position: absolute;
+  text-align: center;
+  text-height: 10px;
+  width: 10%;
+  height: 0px;
+ 
+  text-font: arial;
+
+} */
+
+.reserve a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: white;
+  border: 1px solid white;
+  /*radius of reservation button, set 0px for no curve*/
+  /*border-radius: 5px;  */
+  color: black;
+  display: inline-block;
+  margin: 10px;
+  /*top, right, bottom, left*/
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  font-family: Georgia;
+}
+
+.reserve a:hover {  
+  transition: color .9s ease;
+  /*background: grey; */
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+
+/* LINKS */
+a:active{
+  text-decoration: none;
+  outline:none;
+  font-family: Georgia;
+}
+a:link{
+  color:white;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 1.1em;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  transition: color .9s ease;
+  color: #d6d6d6;
+  text-decoration: underline;
+}
+
+/* MENU LINK */
+.menus{
+  position: absolute;
+  top: 30px;
+  left: 160px;
+  text-decoration: none;
+}
+.menus a{
+  border-bottom: transparent;
+}
+
+/* DINING LINK */
+.dining{
+  position: absolute;
+  top: 30px;
+  left: 232px;
+}
+
+/* CHRISTMAS LINK */
+.christmas{
+  position: absolute;
+  top: 30px;
+  left: 368px;
+}
+
+/* CAREERS LINK */
+.careers{
+  position: absolute;
+  top: 30px;
+  left: 468px;
+}
+
+.line1,
+.line2,
+.line3{
+  color: white;
+  font-size: 1.2em;
+}
+.line1{
+  position: absolute;
+  top: 9px;
+  left: 220px;
+}
+.line2{
+  position: absolute;
+  top: 9px;
+  left: 355px;
+}
+.line3{
+  position: absolute;
+  top: 9px;
+  left: 455px;
+}
+
+.contact{
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  background: transparent;
+  border: 1px solid white;
+  /*radius of reservation button, set 0px for no curve*/
+  border-radius: 15px; 
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  /*top, right, bottom, left*/
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  font-family: Georgia;
+}
+.contact:hover{
+  transition: background .6s ease-in, background .9s ease-out, color .3s ease-in, color .3s ease-out;
+  background: white;
+  color: black;
+}
+
+.logo{
+  width: 26rem;
+  padding-top: 250px;
+}
+
+.logo2{
+  width: 15rem;
+  padding-top: 180px;
+  padding-left: 200px;
+}
+
+.page2{
+  width: 100%;
+  height: 100%;
+  margin-top: 350px;
+  margin-left: 0px;
+  background: #fb6a6a ;
+}
+
+.para{
+  font-family: Georgia;
+  color: black;
+  width:230px;
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 50;
+  height: 100px
+}
